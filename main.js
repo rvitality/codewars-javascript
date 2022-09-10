@@ -1037,8 +1037,6 @@ const getRandomIn = max => Math.floor(Math.random() * max);
 
 const selectedQuote = quotes[getRandomIn(quotes.length)];
 
-console.log(selectedQuote);
-
 const quoteEl = document.querySelector(".quote");
 const authorEl = document.querySelector(".author");
 const professionEl = document.querySelector(".profession");
