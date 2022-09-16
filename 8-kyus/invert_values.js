@@ -1,5 +1,10 @@
-https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/javascript
+// https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript
 
-// ! Invert values --------------
+// ! How good are you really? --------------
 
-const invert = array => array.map(num => -num);
+const betterThanAverage = (classPoints, yourPoints) => {
+    const totalPoints = [...classPoints, yourPoints];
+    const average = totalPoints.reduce((sum, point) => sum + point, 0) / totalPoints.length;
+
+    return yourPoints > average;
+};
