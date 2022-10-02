@@ -1,3 +1,5 @@
+// credits: https://gist.github.com/awran5/355643af99164a61ae0f95c84206d151
+
 const quotes = [
     {
         quote: "Be yourself; everyone else is already taken.",
