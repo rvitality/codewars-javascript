@@ -12,5 +12,5 @@ const solution = digits => {
         }
     }
 
-    return biggestNum;
+    return +biggestNum;
 };
