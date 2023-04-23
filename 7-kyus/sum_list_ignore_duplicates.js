@@ -4,7 +4,5 @@
 
 const sumNoDuplicates = numList =>
     numList
-        .filter(
-            (num, index, arr) => arr.indexOf(num) === index && !arr.slice(index + 1).includes(num)
-        )
+        .filter((num, index, arr) => arr.indexOf(num) === arr.lastIndexOf(num))
         .reduce((sum, num) => sum + num, 0);
