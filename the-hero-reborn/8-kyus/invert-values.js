@@ -1,3 +1,3 @@
-function invert(array) {
-    return array.map((num) => -num);
+function digitize(n) {
+  return String(n).split('').map(Number).reverse()
 }
